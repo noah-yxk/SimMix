@@ -1,0 +1,48 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python 包
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook 的输出
+.ipynb_checkpoints/
+
+# Pytest
+.cache/
+
+# IDE 和编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 其他临时文件
+*.log
+*.tmp
+*.bak
+*.orig
+
+
+
+visualizations*/
+
+ckpt_path/
+!ckpt_path/.gitkeep
+
+results*/
+!results/.gitkeep
+
+tmp/
+tsne/
